@@ -25,6 +25,8 @@ public class BulletHellActivity extends Activity {
         Point size = new Point();
         display.getSize(size);
 
+
+
         // Call the constructor(initialize)
         // the BulletHellGame instance
 
