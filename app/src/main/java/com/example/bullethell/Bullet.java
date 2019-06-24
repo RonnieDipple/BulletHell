@@ -41,7 +41,8 @@ class Bullet {
         // Update the left and top coordinates
         // based on the velocity and current frame rate
         mRect.left = mRect.left + (mXVelocity / fps);
-        mRect.top = mRect.left + mWidth;
+        mRect.top = mRect.top + (mYVelocity / fps);
+        mRect.right = mRect.left + mWidth;
         mRect.bottom = mRect.top - mHeight;
     }
 
