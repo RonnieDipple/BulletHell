@@ -52,4 +52,18 @@ class Bob {
 
          return success;
     }
+
+    void setmTeleportAvailable(){
+        mTeleporting = false;
+    }
+
+    // Return a reference to mRect
+    RectF getRect(){
+        return mRect;
+    }
+
+    // Return a reference to bitmap
+    Bitmap getBitmap(){
+        return  mBitmap;
+    }
 }
